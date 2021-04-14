@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Output</title>
+</head>
+<body>
+    <h6>Write Into HTML Element</h6>
+    <p id="htmlElement"></p>
+    <h6>Write into HTML Output</h6>
+    <p id="htmlOutput"></p>
+    <h6>Writing Alert Box</h6>
+    <button onclick="window.print()">Print It</button>
+    <script>
+        document.querySelector('#htmlElement').innerHTML="This is from HTML Element";
+        document.write('This is from Document Write');
+        window.alert("This is From Alert");
+    </script>
+</body>
+</html>
