@@ -1,0 +1,24 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.nameList {
+  border-style: ridge;
+}
+.nameList ul {
+  overflow-y: scroll;
+  height: 300px;
+}
+
+.showAction {
+  border-style: ridge;
+  width: 500px;
+  height: 200px;
+}
+
+#pText {
+  font-size: 24px;
+  font-weight: 900;
+  align-items: center;
+  color: cornflowerblue;
+}
